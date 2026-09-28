@@ -1,5 +1,6 @@
 package com.campus.model;
-public class Student{
+import com.campus.contract.StudentOperations;
+public class Student implements StudentOperations {
     //encapsulation
     private int studentid;
     private String studentname;
@@ -81,4 +82,4 @@ public class Student{
 
         }
 
-}   
+}   }
