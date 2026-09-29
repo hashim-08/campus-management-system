@@ -14,9 +14,10 @@ public class StudentService {
     public List<String> getStudents() {
         return students;
         }
-    }
+    
     //add a new student
     public void addStudent(String name, String Course) {
         students.add(String.valueOf(students.size() + 101)+" - " + name + " - " + Course);
 
+}
 }
